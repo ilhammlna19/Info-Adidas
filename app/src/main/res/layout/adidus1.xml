@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Gambar Sepatu Futsal -->
+    <ImageView
+        android:id="@+id/shoeImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/foto1"
+    android:contentDescription="Gambar Sepatu Futsal"
+    android:layout_marginBottom="16dp" />
+
+    <!-- Deskripsi Produk -->
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sepatu Futsal Adidus dirancang untuk performa maksimal di lapangan futsal. Dengan desain elegan dan sol anti-selip, sepatu ini memastikan kenyamanan dan kestabilan Anda saat bermain."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Tombol Pesan -->
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan Sekarang"
+        android:textSize="18sp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

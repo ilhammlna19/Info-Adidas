@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 if (logMasuk.equals(correctUsername) && kataSandi.equals(correctPassword)) {
                     Toast.makeText(MainActivity.this, "Login Berhasil", Toast.LENGTH_SHORT).show();
                     // Lanjutkan ke MainActivity
-                    Intent intent = new Intent(MainActivity.this, Welcome.class);
+                    Intent intent = new Intent(MainActivity.this, menuutama.class);
                     startActivity(intent);
                     finish();
                 } else {
